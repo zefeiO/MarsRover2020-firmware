@@ -116,6 +116,10 @@ add_app_subdirectory(${TEST_APPS_DIR}/test-stress-can)
 add_app_subdirectory(${TEST_APPS_DIR}/test-units)
 add_app_subdirectory(${TEST_APPS_DIR}/test-watchdog)
 
+add_app_subdirectory(${TEST_APPS_DIR}/tutorial-servo-pot-control)
+add_app_subdirectory(${TEST_APPS_DIR}/tutorial-servo-can-control)
+
+
 # Ensure APP was specified
 if ("$ENV{APP}" STREQUAL "")
     message(FATAL_ERROR "APP was not specified")
